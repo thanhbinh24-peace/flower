@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 /* logo */
 .logo {
   flex-basis: 20%;
@@ -18,19 +19,23 @@ body {
 .logo img {
   width: 50%;
 }
+
 /* menu */
 .menu ul {
   display: flex;
 }
 .menu li {
   list-style-type: none;
-  padding: 1rem;
 }
 .menu a {
   text-decoration: none;
+  padding: 1rem;
 }
 .menu li.dropdown ul {
   display: none;
+}
+.menu li.dropdown ul li {
+  padding: 1rem;
 }
 .menu li.dropdown:hover ul {
   display: block;
@@ -42,10 +47,18 @@ body {
   font-style: italic;
 }
 
+/* search */
 .search input {
   border: none;
+  margin: 0.5rem;
+  outline: none; /* dùng để xoá hẳn viền của input khi viết nội dung vào*/
+}
+.search i {
+  padding: 0.5rem;
+  cursor: pointer;
 }
 .search {
   border: 1px solid black;
   height:fit-content;
+  border-radius: 2rem;
 }
