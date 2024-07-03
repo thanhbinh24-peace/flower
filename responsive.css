@@ -106,7 +106,7 @@
     display: block;
   }
 }
-/* larger 76800px */
+/* larger 768px */
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .menu {
     margin-left: 2rem;
@@ -174,7 +174,7 @@
     width: 10rem;
   }
   .menu {
-    margin-left: 15rem;
+    margin-left: 12rem;
   }
   .menu li {
     white-space: nowrap;
