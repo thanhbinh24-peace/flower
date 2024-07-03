@@ -55,8 +55,8 @@ body {
 }
 .menu li.dropdown ul li:hover {
   background-color: rgba(240, 240, 240, 0.5);
-  text-decoration: underline;
   font-style: italic;
+  font-weight: bold;
 }
 .menu-toggle {
   display: flex;
