@@ -32,6 +32,9 @@ body {
   list-style-type: none;
   white-space: nowrap;
 }
+.menu a:hover {
+  font-style: italic;
+}
 .menu a {
   text-decoration: none;
   padding: 2rem;
