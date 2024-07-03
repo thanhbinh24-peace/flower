@@ -19,33 +19,43 @@
       <div class="logo">
         <img src="./img/logoflower.jpeg" alt="">
       </div>
-      <!-- menu -->
-      <div class="menu">
+      <div class="menu-toggle">
         <div class="toggle-button">
           <span>&#9776;</span>
         </div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#shop">Shop Now</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li class="dropdown"><a href="#product">Products</a>
-            <i class="fa-solid fa-caret-down"></i>
-            <ul>
-              <li><a href="#">Colors</a></li>
-              <li><a href="#">Price</a></li>
-              <li><a href="#">Seasons</a></li>
-              <li><a href="#">Concepts</a></li>
-            </ul>
-          </li>
-        </ul>
+      <!-- menu -->
+        <div class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#shop">Shop Now</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown"><a href="#product">Products<i class="fa-solid fa-caret-down"></i></a>
+              <ul>
+                <li><a href="#">Colors</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">Seasons</a></li>
+                <li><a href="#">Concepts</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <!-- search -->
     <div class="search">
-      <input type="text" placeholder="Search">
-      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        <input type="text" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
     </div>
   </div>
+
+  <script>
+    const toggleButton = document.querySelector('.toggle-button');
+    const menu = document.querySelector('.menu');
+
+    toggleButton.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+  </script>
 </body>
 </html>

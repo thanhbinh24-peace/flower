@@ -1,0 +1,98 @@
+@media screen and (max-width: 500px) {
+  .menu {
+    display: none;  
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+  .menu-toggle {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .menu li {
+    padding: 0.5rem;
+  }
+  .menu li.dropdown ul li {
+    padding: 0.5rem;
+  }
+  .search {
+    display: flex;
+    height: 2rem;
+    margin-left: 2rem;
+  }
+  .search input {
+    margin-right: 0.2rem;
+    margin: 0.5rem;
+    margin-right: -1rem;
+  }
+  .search i {
+    padding: 0.4rem;
+  }
+  .toggle-button {
+    display: block;
+    margin-left: 1rem;
+  }
+  .show {
+    display: block;
+  }
+}
+/* larger 500px */
+@media screen and (min-width: 501px) and (max-width: 600px) {
+  .menu {
+    display: none;  
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+  .menu-toggle {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .menu li {
+    padding: 0.5rem;
+  }
+  .menu li.dropdown ul li {
+    padding: 0.5rem;
+  }
+  .search {
+    display: flex;
+    height: 2rem;
+    margin-left: 2rem;
+  }
+  .search input {
+    margin-right: 0.2rem;
+    margin: 0.5rem;
+    margin-right: -1rem;
+  }
+  .search i {
+    padding: 0.4rem;
+  }
+  .toggle-button {
+    display: block;
+  }
+  .show {
+    display: block;
+  }
+}
+/* larger 600px */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .search {
+    display: flex;
+    height: 2rem;
+    margin-left: 2rem;
+  }
+  .search input {
+    margin-right: 0.2rem;
+    margin: 0.5rem;
+    margin-right: -1rem;
+  }
+  .search i {
+    padding: 0.4rem;
+  }
+  .toggle-button {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+}

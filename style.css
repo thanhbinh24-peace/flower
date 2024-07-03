@@ -11,9 +11,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.toggle-button {
-  display: none;
-}
 /* logo and menu */
 .left {
   display: flex;
@@ -23,20 +20,25 @@ body {
   flex-basis: 20%;
 }
 .logo img {
-  width: 50%;
+  width: 4rem;
 }
 
 /* menu */
 .menu ul {
   display: flex;
+  
 }
 .menu li {
   list-style-type: none;
+  white-space: nowrap;
 }
 .menu a {
   text-decoration: none;
-  padding: 1rem;
+  padding: 2rem;
   color: navy;
+}
+.menu li.dropdown i {
+  padding-left: 0.5rem;
 }
 .menu li.dropdown ul {
   display: none;
@@ -53,26 +55,24 @@ body {
   text-decoration: underline;
   font-style: italic;
 }
-
+.menu-toggle {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+}
 /* search */
 .search input {
   border: none;
   margin: 0.5rem;
   outline: none; /* dùng để xoá hẳn viền của input khi viết nội dung vào*/
+  margin-right: 1rem;
 }
 .search {
   border: 1px solid black;
-  height:fit-content;
+  height: fit-content;
   border-radius: 2rem;
 }
-.search button {
-  background-color: pink;
-  border: none;
-  border-top-right-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-  padding: 0.5rem;
-  cursor: pointer;
-}
 .search i {
-  color:midnightblue
+  color:midnightblue;
+  padding: 0.4rem;
 }
