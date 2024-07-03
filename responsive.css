@@ -76,6 +76,47 @@
 }
 /* larger 600px */
 @media screen and (min-width: 601px) and (max-width: 768px) {
+  .menu {
+    margin-left: 0.8rem;
+  }
+  .menu li {
+    white-space: nowrap;
+  }
+  .menu a {
+    padding: 0.4rem;
+  }
+  .search {
+    display: flex;
+    height: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 0.4rem;
+  }
+  .search input {
+    margin-right: 0.2rem;
+    margin: 0.5rem;
+    margin-right: -1rem;
+  }
+  .search i {
+    padding: 0.4rem;
+  }
+  .toggle-button {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+}
+/* larger 76800px */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .menu {
+    margin-left: 2rem;
+  }
+  .menu li {
+    white-space: nowrap;
+  }
+  .menu a {
+    padding: 0.8rem;
+  }
   .search {
     display: flex;
     height: 2rem;
@@ -96,3 +137,69 @@
     display: block;
   }
 }
+/* larger 992px */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .menu {
+    margin-left: 8rem;
+  }
+  .menu li {
+    white-space: nowrap;
+  }
+  .menu a {
+    padding: 1rem;
+  }
+  .search {
+    display: flex;
+    height: 2rem;
+    margin-left: 2rem;
+  }
+  .search input {
+    margin-right: 0.2rem;
+    margin: 0.5rem;
+    margin-right: -1rem;
+  }
+  .search i {
+    padding: 0.4rem;
+  }
+  .toggle-button {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+}
+/* larger 1200 */
+@media screen and (min-width: 1201px) {
+  .logo img {
+    width: 10rem;
+  }
+  .menu {
+    margin-left: 15rem;
+  }
+  .menu li {
+    white-space: nowrap;
+  }
+  .menu a {
+    padding: 1.5rem;
+  }
+  .search {
+    display: flex;
+    height: 2rem;
+    margin-left: 2rem;
+  }
+  .search input {
+    margin-right: 0.2rem;
+    margin: 0.5rem;
+    margin-right: -1rem;
+  }
+  .search i {
+    padding: 0.4rem;
+  }
+  .toggle-button {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+}
+
